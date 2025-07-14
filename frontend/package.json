@@ -1,0 +1,45 @@
+{
+    "name": "plant-health-frontend",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint",
+      "codegen": "graphql-codegen --config codegen.yml"
+    },
+    "dependencies": {
+      "next": "14.0.3",
+      "react": "18.2.0",
+      "react-dom": "18.2.0",
+      "@apollo/client": "^3.8.8",
+      "graphql": "^16.8.1",
+      "@apollo/experimental-nextjs-app-support": "^0.5.2",
+      "@headlessui/react": "^1.7.17",
+      "@heroicons/react": "^2.0.18",
+      "react-dropzone": "^14.2.3",
+      "react-hook-form": "^7.48.2",
+      "recharts": "^2.8.0",
+      "framer-motion": "^10.16.16",
+      "date-fns": "^2.30.0",
+      "clsx": "^2.0.0",
+      "tailwind-merge": "^2.0.0"
+    },
+    "devDependencies": {
+      "typescript": "^5.3.2",
+      "@types/node": "^20.9.0",
+      "@types/react": "^18.2.37",
+      "@types/react-dom": "^18.2.15",
+      "autoprefixer": "^10.4.16",
+      "postcss": "^8.4.31",
+      "tailwindcss": "^3.3.5",
+      "eslint": "^8.54.0",
+      "eslint-config-next": "14.0.3",
+      "@graphql-codegen/cli": "^5.0.0",
+      "@graphql-codegen/client-preset": "^4.1.0",
+      "@graphql-codegen/typescript": "^4.0.1",
+      "@graphql-codegen/typescript-operations": "^4.0.1",
+      "@graphql-codegen/typescript-react-apollo": "^4.0.0"
+    }
+  }
